@@ -1,0 +1,20 @@
+{
+    "name": "gamebit",
+    "version": "1.0.0",
+    "description": "Extension for eggtoy gamebit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "gamebit.ts",
+        "HandleRGBLight.ts",
+        "sendbuffer.asm",
+        "_locales/zh/gamebit-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
