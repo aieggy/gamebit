@@ -525,7 +525,7 @@ namespace gamebit {
         if (speed > 100 || speed < -100) {
             return;
         }
-
+ 
 		let speedtemp=0;
 		let strtemp="";
 		let SpeedValue="";
