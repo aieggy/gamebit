@@ -410,7 +410,7 @@ namespace gamebit {
                         handleCmd = "";
                         return;
                     }
-                    Knob = argsInt;
+                    Knob = argsInt*100/4096;
                 }
                 startIndex = index + 1;
             }
@@ -536,6 +536,7 @@ namespace gamebit {
 		else{
 			speedtemp = Math.abs(speed);
 		}
+		speedtemp = speedtemp/2;
 		strtemp = speedtemp.toString();
 		SpeedValue="d#"+strtemp+"$";
 
