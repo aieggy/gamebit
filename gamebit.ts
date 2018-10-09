@@ -525,6 +525,8 @@ namespace gamebit {
         if (speed > 100 || speed < -100) {
             return;
         }
+		
+		speed = speed / 2;
  
 		let speedtemp=0;
 		let strtemp="";
@@ -536,7 +538,6 @@ namespace gamebit {
 		else{
 			speedtemp = Math.abs(speed);
 		}
-		speedtemp = speedtemp/2;
 		strtemp = speedtemp.toString();
 		SpeedValue="d#"+strtemp+"$";
 
